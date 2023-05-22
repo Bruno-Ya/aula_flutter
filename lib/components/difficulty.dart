@@ -17,7 +17,7 @@ class Difficulty extends StatelessWidget {
           size: 15,
           color: (DifficultyLevel >= 1)
               ? Colors.blue
-              : Color.fromARGB(255, 21, 22, 23),
+              : const Color.fromARGB(255, 21, 22, 23),
         ),
         Icon(
           Icons.star,

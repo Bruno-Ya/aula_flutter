@@ -27,7 +27,7 @@ class _FormScreenState extends State<FormScreen> {
               height: 650,
               width: 375,
               decoration: BoxDecoration(
-                color: Color.fromARGB(31, 38, 28, 28),
+                color: const Color.fromARGB(31, 38, 28, 28),
                 borderRadius: BorderRadius.circular(10),
                 border: Border.all(width: 3),
               ),
@@ -46,7 +46,7 @@ class _FormScreenState extends State<FormScreen> {
                       },
                       controller: nameController,
                       textAlign: TextAlign.center,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Nome',
                         fillColor: Colors.white70,
@@ -68,7 +68,7 @@ class _FormScreenState extends State<FormScreen> {
                       keyboardType: TextInputType.number,
                       controller: difficultyController,
                       textAlign: TextAlign.center,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Dificuldade',
                         fillColor: Colors.white70,
@@ -91,7 +91,7 @@ class _FormScreenState extends State<FormScreen> {
                       keyboardType: TextInputType.url,
                       controller: imageController,
                       textAlign: TextAlign.center,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Imagem',
                         fillColor: Colors.white70,
@@ -125,7 +125,7 @@ class _FormScreenState extends State<FormScreen> {
                       print((difficultyController.text));
                       print(imageController.text);
                     },
-                    child: Text('Adicionar'),
+                    child: const Text('Adicionar'),
                   ),
                 ],
               ),
